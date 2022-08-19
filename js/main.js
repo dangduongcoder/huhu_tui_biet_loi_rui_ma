@@ -17,7 +17,8 @@ function fuck(){
             
             break;
         case 1:
-            ran_pos();
+            swap_pos();
+            // ran_pos();
             setTimeout(()=>{
                 mew();
             },0);
