@@ -10,15 +10,16 @@ function fuck(){
     var tmp = Math.floor(Math.random() * 2);
     switch (tmp) {
         case 0:
-            swap_pos();
+            ran_pos();
+            // swap_pos();
             setTimeout(()=>{
                 mew();
             },0);
             
             break;
         case 1:
-            swap_pos();
-            // ran_pos();
+            // swap_pos();
+            ran_pos();
             setTimeout(()=>{
                 mew();
             },0);
